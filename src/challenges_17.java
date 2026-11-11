@@ -10,7 +10,7 @@ public class challenges_17 {
 
     }
 
-    public static int SumOfDigits(int num) {
+    public static int SumOfDigits( int num ) {
         int sum = 0;
         while (num > 0) {
             sum += num % 10;
